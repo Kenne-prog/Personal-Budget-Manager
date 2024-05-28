@@ -1,0 +1,40 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      '_id',
+      'reset_deadline',
+      'user_id',
+      'categories'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'objectId'
+      },
+      reset_deadline: {
+        bsonType: 'date'
+      },
+      user_id: {
+        bsonType: 'objectId'
+      },
+      categories: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          required: [
+            'category_id',
+            'name'
+          ],
+          properties: {
+            category_id: {
+              bsonType: 'objectId'
+            },
+            name: {
+              bsonType: 'string'
+            }
+          }
+        }
+      }
+    }
+  }
+}

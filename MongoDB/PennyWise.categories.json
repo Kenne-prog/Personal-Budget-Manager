@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "61a8c173c594703ddb8722ab"
+  },
+  "amount_allocated": {
+    "$numberDecimal": "1000"
+  },
+  "name": "Groceries",
+  "description": "Budget for groceries",
+  "budget_id": {
+    "$oid": "61a8c173c594703ddb8722aa"
+  }
+}]

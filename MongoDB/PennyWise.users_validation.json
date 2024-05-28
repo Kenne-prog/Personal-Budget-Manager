@@ -1,0 +1,27 @@
+{
+  $jsonSchema: {
+    title: 'User',
+    description: 'A registered user of PennyWise.',
+    bsonType: 'object',
+    required: [
+      '_id',
+      'username',
+      'email',
+      'password'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'objectId'
+      },
+      username: {
+        bsonType: 'string'
+      },
+      email: {
+        bsonType: 'string'
+      },
+      password: {
+        bsonType: 'string'
+      }
+    }
+  }
+}

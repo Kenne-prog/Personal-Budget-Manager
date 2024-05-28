@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "6601133bac99efe9bf7d5ee1"
+  },
+  "username": "Admin",
+  "email": "admin@csulb.edu",
+  "password": "password"
+}]

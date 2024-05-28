@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "61a8c173c594703ddb8722aa"
+  },
+  "reset_deadline": {
+    "$date": "2024-03-31T00:00:00.000Z"
+  },
+  "user_id": {
+    "$oid": "61a8c173c594703ddb8722a9"
+  },
+  "categories": []
+}]

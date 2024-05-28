@@ -1,0 +1,33 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      '_id',
+      'amount',
+      'name',
+      'comment',
+      'date_entered',
+      'category_id'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'objectId'
+      },
+      amount: {
+        bsonType: 'decimal'
+      },
+      name: {
+        bsonType: 'string'
+      },
+      comment: {
+        bsonType: 'string'
+      },
+      date_entered: {
+        bsonType: 'date'
+      },
+      category_id: {
+        bsonType: 'objectId'
+      }
+    }
+  }
+}

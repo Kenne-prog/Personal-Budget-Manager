@@ -1,0 +1,29 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      '_id',
+      'amount_allocated',
+      'name',
+      'description',
+      'budget_id'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'objectId'
+      },
+      amount_allocated: {
+        bsonType: 'decimal'
+      },
+      name: {
+        bsonType: 'string'
+      },
+      description: {
+        bsonType: 'string'
+      },
+      budget_id: {
+        bsonType: 'objectId'
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "61a8c173c594703ddb8722ac"
+  },
+  "amount": {
+    "$numberDecimal": "50"
+  },
+  "name": "Weekly groceries",
+  "comment": "Purchased groceries for the week",
+  "date_entered": {
+    "$date": "2024-03-25T10:00:00.000Z"
+  },
+  "category_id": {
+    "$oid": "61a8c173c594703ddb8722ab"
+  }
+}]
